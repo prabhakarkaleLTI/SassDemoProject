@@ -1,0 +1,25 @@
+@import "./base/globals";
+@import "./utilities/variables";
+@import "./base/typhography";
+@import "./utilities/helpers";
+@import "./components/overlay";
+
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/about";
+@import "./layout/foodOffer";
+@import "./layout/foodMenu";
+@import "./layout/foodTestimonial";
+@import "./layout/foodFooter";
+
+.food_about{
+    @include section_padding();
+}
+    
+.food_menu{
+    @include section_padding();
+}
+
+.food_footer{
+    @include section_padding();
+}

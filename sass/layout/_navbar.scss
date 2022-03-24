@@ -1,0 +1,24 @@
+.navbar{
+    @include flexCenter();
+    width: 100%;
+    margin-bottom: auto;
+    background-color:rgba($color: $textColor, $alpha: 0.8);
+    ul{
+        display: flex;
+        list-style-type : none;
+
+        a{
+            display: block;
+            text-decoration: none;
+            color: #333;
+            padding: 20px;
+
+            &.active{
+                color: $primaryColor;
+            }
+            &:hover{
+                color: $primaryColor;
+            }
+        }
+    }
+}

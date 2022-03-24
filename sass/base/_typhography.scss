@@ -1,0 +1,19 @@
+
+
+h2{
+    padding-bottom: 70px;
+}
+
+h3, h4, h2{
+   @include headingFormating();
+}
+
+h3{
+    font-size: 25px;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: $primaryColor;
+}
